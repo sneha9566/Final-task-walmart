@@ -7,13 +7,13 @@ import HomePage from './components/HomePage'
 import Login from './components/Login'
 import Register from './components/Register'
 import store from './redux/store'
-import firebase from './components/firebase'
 import Skeleton from '@material-ui/lab/Skeleton';
-
+import firebase from './components/firebase'
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import CardContainer from './components/CardContainer'
 import Productdetails from './components/Productdetails'

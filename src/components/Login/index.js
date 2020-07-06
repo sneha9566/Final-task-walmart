@@ -5,8 +5,6 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import { Link, withRouter } from 'react-router-dom'
 import firebase from '../firebase'
 import Image from 'material-ui-image';
-import { shallow, mount, render } from 'enzyme';
-
 
 const styles = theme => ({
 	main: {
@@ -43,7 +41,7 @@ function SignIn(props) {
 
 	return (
 		<main className={classes.main}>
-			<div class="homepage">
+		<div class="homepage">
 			<Paper className={classes.paper}>
 					<Image className="image-walmart"
 						src={`https://i.ibb.co/xYT5yx8/walmart-logo-24.jpg`}									
