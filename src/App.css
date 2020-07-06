@@ -1,0 +1,153 @@
+
+.mg-top40{
+  margin-top: 40px!important;
+}
+
+.parent-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.MuiCardContent-root h2{
+  color:rgba(0, 0, 0, 0.7019607843137254);
+  font-weight: bold;
+}
+.MuiCardContent-root p{
+  color:rgba(0, 0, 0, 0.54);
+  font-size: 13px;
+}
+.MuiCardHeader-content span{
+  font-size: 11px!important;
+}
+.parent-card .MuiPaper-root {
+  flex: 1 0 21%; 
+  margin: 5px;
+  margin-top: 20px;
+}
+.card-box{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-box:hover{
+  cursor: pointer;
+}
+/* .short-desc{
+  max-height: 100px;
+  min-height: 70px;
+} */
+
+.loading-img{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.parent-card a{
+  text-decoration: none;
+}
+
+.MuiPagination-ul{
+  padding-left: 50px!important;
+  padding-bottom: 100px;
+  flex-wrap: nowrap!important;
+}
+
+nav{
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+.skeleton-img{
+  margin-top: 50px;
+}
+
+.next-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizontal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.horizontal img{
+  width:100%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.horizontal Button{
+  margin-top: 30px;
+}
+
+.MuiIconButton-edgeStart {
+  margin-left: 40px!important;
+}
+
+.MuiInputBase-input{
+  color:#000!important;
+}
+.MuiToolbar-regular {
+  min-height: 80px!important;
+}
+.MuiIconButton-colorInherit{
+  margin-right: 50px!important;
+}
+
+.MuiIconButton-edgeStart {
+  margin-left: 10px;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #071654!important;
+}
+.makeStyles-inputRoot-4{
+width:100%;
+}
+
+.makeStyles-searchIcon-3 svg,.makeStyles-searchIcon-14 svg{
+  position: relative;
+  top:2px;
+  color:#000!important;
+}
+
+.logoutbtn{
+  color: #fff!important;
+  margin-left: 30px!important;
+}
+.MuiToolbar-regular{
+display: flex;
+align-items: center;
+/* justify-content: center; */
+}
+.MuiDialog-paperWidthSm{
+  max-width: 400px;
+  width: 400px;
+}
+
+.MuiDialogContent-dividers{
+  border-bottom: none!important;
+}
+
+.image-walmart{
+  position: relative!important;
+  padding-top: 0!important;
+  max-width:150px;
+  max-height: 150px;
+}
+.homepage div{
+  padding-top: 0!important;
+}
+
+.MuiIconButton-label .MuiSvgIcon-root{
+  fill:#f44336;
+}
+.fiter-icon{
+  fill:#fff!important;
+}
